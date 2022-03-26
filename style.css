@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    border: solid 1px red;
+    height: 100vh;
+    width: min(1200px, 100vw - 2rem);
+    margin: 0 auto;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 5fr;
+    gap: 20px;
+    
+}
+
+.header{
+    border: solid 1px rgb(255, 0, 149);
+    grid-column: 2;
+
+}
+.sidebar{
+    border: solid 1px yellow;
+    grid-row: 1 / span 2;
+
+}
+
+.main{
+    border: solid 1px green;
+}
