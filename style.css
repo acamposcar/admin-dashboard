@@ -286,13 +286,18 @@ ul{
 }
 
 .announcement{
-    padding: 1em;
+    padding: 0.5em;
 }
 
 .announcement-title{
     font-weight: bold;
     text-decoration: none;
     color: black;
+}
+
+.announcement-content{
+    font-size: smaller;
+    color: rgb(73, 73, 73);
 }
 
 .trending{
@@ -307,7 +312,12 @@ ul{
     gap: 1em;
     align-items: center;
     justify-content: center;
-    padding: 1em;
+    padding: 0.5em;
+}
+
+.trending-project{
+    font-size: smaller;
+    color: rgb(73, 73, 73);
 }
 
 .trending > .section-name{
