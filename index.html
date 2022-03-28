@@ -6,18 +6,414 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <div class="container">
 
     <div class="header">
+        <div class="search">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="user">
+            <div class="notifications">
+                Bell
+            </div>
+            <div class="avatar">
+                Image
+            </div>
+            <div class="username">
+                John Doe
+            </div>
+        </div>
+        <div class="greeting">
+            <div class="greeting-avatar avatar">
 
+            </div>
+            <div class="greeting-user">
+                <div>
+                    Hi there,
+                </div>
+                <div class="greeting-username">
+                    John Doe (@johndoe)
+                </div>
+            </div>
+        </div>
+        <div class="actions">
+            <li class="action-item">
+                <a href="#" class="action-link">
+                    <div class="action">
+                        New
+                    </div>
+                </a>
+            </li>
+            <li class="action-item">
+                <a href="#" class="action-link">
+                    <div class="action">
+                        Upload
+                    </div>
+                </a>
+            </li>
+            <li class="action-item">
+                <a href="#" class="action-link">
+                    <div class="action">
+                        Share
+                    </div>
+                </a>
+            </li>
+        </div>
     </div>
     <div class="sidebar">
-
+        <div class="logo">
+            Dashboard
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">
+                        <div class="icon">
+                            <span class="material-icons">
+                                home
+                            </span>
+                        </div>
+                        <div class="page">
+                            Home
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <div class="icon">
+                            <span class="material-icons">
+                                person
+                            </span>
+                        </div>
+                        <div class="page">
+                            Profile
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <div class="icon">
+                            <span class="material-icons">
+                                chat
+                            </span>
+                        </div>
+                        <div class="page">
+                            Messages
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <div class="icon">
+                            <span class="material-icons">
+                                watch_later
+                            </span>
+                        </div>
+                        <div class="page">
+                            History
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <div class="icon">
+                            <span class="material-icons">
+                                task
+                            </span>
+                        </div>
+                        <div class="page">
+                            Tasks
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <div class="icon">
+                            <span class="material-icons">
+                                local_library
+                            </span>
+                        </div>
+                        <div class="page">
+                            Communities
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="navbar">
+            <ul>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <div class="icon">
+                            <span class="material-icons">
+                                settings
+                            </span>
+                        </div>
+                        <div class="page">
+                            Settings
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <div class="icon">
+                            <span class="material-icons">
+                                help
+                            </span>
+                        </div>
+                        <div class="page">
+                            Support
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <div class="icon">
+                            <span class="material-icons">
+                                verified_user
+                            </span>
+                        </div>
+                        <div class="page">
+                            Privacy
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </div>
     <div class="main">
+        <div class="section-name">
+            Your Projects
+        </div>
+        <div class="section-name">
+            Announcements
+        </div>
+        <article>
+            <div class="article-container">
+                <div class="card">
+                    <a href="#" class="article-title">Etch-a-sketch</a>
+                    <div class="article-content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend
+                        risus libero, sit amet euismod magna blandit at.
+                    </div>
+                    <div class="article-social">
+                        <span class="material-icons-outlined">
+                            star_outline
+                        </span>
+                        <span class="material-icons-outlined">
+                            visibility
+                        </span>
+                        <span class="material-icons-outlined">
+                            share
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="#" class="article-title">Calculator</a>
+                    <div class="article-content">
+                        Morbi vulputate nunc odio, non varius lorem congue vel. Proin suscipit
+                        ex eros, sit amet tincidunt velit ultrices sed.
+                    </div>
+                    <div class="article-social">
+                        <span class="material-icons-outlined">
+                            star_outline
+                        </span>
+                        <span class="material-icons-outlined">
+                            visibility
+                        </span>
+                        <span class="material-icons-outlined">
+                            share
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="#" class="article-title">Commerce</a>
+                    <div class="article-content">
+                        Ut tincidunt eu nisl et placerat. Vestibulum pharetra quis nibh nec
+                        commodo. Suspendisse sed mauris mollis, sodales
+                        velit id, pharetra ante.
+                    </div>
+                    <div class="article-social">
+                        <span class="material-icons-outlined">
+                            star_outline
+                        </span>
+                        <span class="material-icons-outlined">
+                            visibility
+                        </span>
+                        <span class="material-icons-outlined">
+                            share
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="#" class="article-title">Rock paper scissors</a>
+                    <div class="article-content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend
+                        risus libero, sit amet euismod magna blandit at.
+                        Pellentesque nec ante non nulla mollis dignissim. Maecenas mollis auctor purus ut convallis.
+                    </div>
+                    <div class="article-social">
+                        <span class="material-icons-outlined">
+                            star_outline
+                        </span>
+                        <span class="material-icons-outlined">
+                            visibility
+                        </span>
+                        <span class="material-icons-outlined">
+                            share
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="#" class="article-title">Network</a>
+                    <div class="article-content">
+                        Donec venenatis augue a volutpat egestas. Sed porta dapibus lobortis.
+                        Duis lectus felis, dapibus vitae condimentum eu,
+                        scelerisque eget neque. Vivamus gravida orci ipsum, vitae eleifend dui ultricies et. Quisque
+                        pulvinar faucibus nisl, ac
+                        tristique lorem pulvinar vitae.
+                    </div>
+                    <div class="article-social">
+                        <span class="material-icons-outlined">
+                            star_outline
+                        </span>
+                        <span class="material-icons-outlined">
+                            visibility
+                        </span>
+                        <span class="material-icons-outlined">
+                            share
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="#" class="article-title">The Mail</a>
+                    <div class="article-content">
+                        Mauris condimentum egestas magna, ac fringilla eros dapibus et. Nunc
+                        sed mi nec magna vehicula ornare sit amet vitae
+                        enim. Proin metus orci, tristique id bibendum et, tempus nec felis. Nam odio magna, porta a
+                        mauris sit amet, hendrerit
+                        ultricies libero.
+                    </div>
+                    <div class="article-social">
+                        <span class="material-icons-outlined">
+                            star_outline
+                        </span>
+                        <span class="material-icons-outlined">
+                            visibility
+                        </span>
+                        <span class="material-icons-outlined">
+                            share
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <div class="rightbar">
+            <div class="announcements card">
+                <div class="announcement">
+                    <div class="announcement-title">
+                        Site Maintenance
+                    </div>
+                    <div class="announcement-content">
+                        Mauris condimentum egestas magna, ac fringilla eros dapibus et.
+                    </div>
+                </div>
+                <div class="announcement">
+                    <div class="announcement-title">
+                        Community Share Day
+                    </div>
+                    <div class="announcement-content">
+                        Mauris condimentum egestas magna, ac fringilla eros dapibus et.
+                    </div>
+                </div>
+                <div class="announcement">
+                    <div class="announcement-title">
+                        Upload Privacy Policy
+                    </div>
+                    <div class="announcement-content">
+                        Mauris condimentum egestas magna, ac fringilla eros dapibus et.
+                    </div>
+                </div>
+            </div>
 
+            <div class="trending">
+                <div class="section-name">
+                    Trending
+                </div>
+                <div class="trending-items card">
+                    <div class="trending-item">
+                        <div class="trending-avatar avatar">
+                            <span class="material-icons">
+                                face
+                            </span>
+                        </div>
+                        <div class="trending-user">
+                            <div class="trending-username">
+                                @johnDoe
+                            </div>
+                            <div class="trending-project">
+                                Etch a sketch
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trending-item">
+                        <div class="trending-avatar avatar">
+                            <span class="material-icons">
+                                face
+                            </span>
+                        </div>
+                        <div class="trending-user">
+                            <div class="trending-username">
+                                @johnDoe
+                            </div>
+                            <div class="trending-project">
+                                Etch a sketch
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trending-item">
+                        <div class="trending-avatar avatar">
+                            <span class="material-icons">
+                                face
+                            </span>
+                        </div>
+                        <div class="trending-user">
+                            <div class="trending-username">
+                                @johnDoe
+                            </div>
+                            <div class="trending-project">
+                                Etch a sketch
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trending-item">
+                        <div class="trending-avatar avatar">
+                            <span class="material-icons">
+                                face
+                            </span>
+                        </div>
+                        <div class="trending-user">
+                            <div class="trending-username">
+                                @johnDoe
+                            </div>
+                            <div class="trending-project">
+                                Etch a sketch
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
